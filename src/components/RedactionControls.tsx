@@ -3,7 +3,7 @@ import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { Settings } from "lucide-react";
-import { RedactionOptions } from "@/utils/redactionUtils";
+import type { RedactionOptions } from "@/components/utils/redactionUtils";
 
 interface RedactionControlsProps {
   options: RedactionOptions;

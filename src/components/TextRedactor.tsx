@@ -6,11 +6,11 @@ import { Badge } from "@/components/ui/badge";
 import { Copy, Shield, Eye, EyeOff } from "lucide-react";
 import { toast } from "sonner";
 import RedactionControls from "./RedactionControls";
-import {
-  redactText,
+import { redactText } from "@/components/utils/redactionUtils";
+import type {
   RedactionOptions,
   DetectedSensitiveData,
-} from "@/utils/redactionUtils";
+} from "@/components/utils/redactionUtils";
 
 const TextRedactor = () => {
   const [inputText, setInputText] = useState("");
